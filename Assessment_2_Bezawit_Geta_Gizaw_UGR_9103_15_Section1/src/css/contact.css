@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    
+}
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #ff6600;
+    font-weight: bold;
+    margin-left: 240px;
+}
+.header h1 span {
+    color: #ffffff;
+}
+.header p {
+    margin: 0;
+    font-size: 14px;
+    margin-left: 210px;
+    
+}
+.nav {
+    text-align: left;
+    padding: 10px 0;
+    background-color: #333;
+    margin-left: 230px;
+    margin-top: 70px;
+    
+}
+.nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #5cb85c;
+    margin: 0 10px;
+    border-radius: 5px;
+    
+   
+}
+.nav a:hover {
+    background-color:orange;
+    border-bottom: 3px solid var(black);
+    color: var(black);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+.main-content {
+    margin-left: 220px;
+    
+}
+.main-content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sidebar {
+    margin-right: 470px;
+}
+.sidebar h2, .main-content h2 {
+    color: #66cc33;
+    margin-bottom: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 10px 0;
+    margin-bottom: 25px;
+}
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.form-group {
+    margin: 10px 0;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.form-group input, .form-group textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group textarea {
+    height: 200px;
+}
+.form-group button {
+    padding: 10px 20px;
+    background-color: #66cc33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #55aa22;
+}
+
+.containerr {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    flex-wrap: wrap;
+    margin-top: 1px;
+}
+.card{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+.card img {
+    border-radius: 4px;
+    margin: 5px;
+}
+.card p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.card a {
+    color: #66cc33;
+    text-decoration: none;
+}
+.card a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer a {
+    color: #66cc33;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
