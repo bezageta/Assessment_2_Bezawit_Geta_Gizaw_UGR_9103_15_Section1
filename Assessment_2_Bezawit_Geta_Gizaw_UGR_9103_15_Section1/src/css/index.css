@@ -45,17 +45,11 @@ body {
    
 }
 .nav a:hover {
-    background-color: #66cc33;
+    background-color: orange;
     border-bottom: 3px solid var(black);
     color: var(black);
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
 .container {
     display: flex;
     justify-content: center;

@@ -15,8 +15,8 @@ body {
     margin: 0;
     font-size: 48px;
     color: #ff6600;
-    font-weight: bold;
-    margin-left: 240px;
+    margin-left: 355px;
+
 }
 .header h1 span {
     color: #ffffff;
@@ -24,14 +24,14 @@ body {
 .header p {
     margin: 0;
     font-size: 14px;
-    margin-left: 210px;
+    margin-left: 410px;
     
 }
 .nav {
     text-align: left;
     padding: 10px 0;
     background-color: #333;
-    margin-left: 230px;
+    margin-left: 340px;
     margin-top: 70px;
     
 }
@@ -39,57 +39,59 @@ body {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #5cb85c;
-    margin: 0 10px;
+    background-color: #66cc33;
+    margin: 0 20px;
     border-radius: 5px;
-    
    
 }
 .nav a:hover {
-    background-color:orange;
+    background-color: orange;
     border-bottom: 3px solid var(black);
     color: var(black);
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-   
-}
-.main-content {
-    margin-left: 220px;
-    
-}
-.main-content p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.sidebar {
-    margin-right: 470px;
-}
-.sidebar h2, .main-content h2 {
-    color: #66cc33;
-    margin-bottom: 35px;
-    margin-top: 40px;
+
+.bold-Head-Para {
     font-weight: bold;
 }
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    flex-wrap: wrap;
+    margin-top: 1px;
+
 }
-.sidebar ul li {
-    margin: 10px 0;
-    margin-bottom: 25px;
+.content-section{   
+    background-color: white;
+    border-radius: 10px;
+    width: 520px;
+    padding: 20px;
+    text-align: left;
 }
-.sidebar ul li a {
-    color: black;
+.content-section h2 {
+    color: #66cc33;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    margin-top: 10px;
+}
+.content-section p {
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+.content-section a {
+    color: #ff6600;
     text-decoration: none;
-    
-    
 }
-.sidebar ul li a:hover {
+.content-section a:hover {
     text-decoration: underline;
 }
+.sidebar ul
+{
+  List-style:none;
+} 
 .form-group {
     margin: 10px 0;
 }
